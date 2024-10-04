@@ -1,0 +1,57 @@
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/main-apresentacao.css");
+@import url("/css/main-projetos.css");
+@import url("/css/main-sobre.css");
+@import url("/css/main-contato.css");
+@import url("/css/sobre-mim.css");
+@import url("/css/responsive.css");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --fonte-titulos: "Bebas Neue", sans-serif;
+    --fonte-menor: "Inter", sans-serif;
+    --fonte-textos: "Manrope", sans-serif;
+}
+
+body h1, body h2{
+    font-family: var(--fonte-titulos);
+}
+
+body p, body a, body span, form, button {
+    font-family: var(--fonte-textos);
+}
+
+body h3 {
+    font-family: var(--fonte-textos);
+    font-weight: 600;
+}
+.pdf {
+    display: flex;
+    padding-top: 6rem;
+}
+
+.pdf embed{
+    width: 65.5rem;
+    height: 32rem;
+}
+
+.footer-class {
+    padding: 1rem 0 0 0;
+    display: flex;
+}

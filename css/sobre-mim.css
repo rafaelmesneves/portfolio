@@ -1,0 +1,111 @@
+#apresentacao-sobre-mim, #minhas-experiencias{
+  display: flex;
+  padding-top: 6rem;
+}
+
+.apresentacao-direita-sobre-mim, .experiencias {
+  padding-top: 5rem;
+  width: 50%;
+}
+
+.apresentacao-direita-sobre-mim-botoes {
+  padding-top: 2em;
+  display: flex;
+  align-items: baseline;
+  align-content: flex-start;
+}
+
+.apresentacao-direita-sobre-mim-botoes button{
+  font-size: 1rem;
+  position: relative;
+  margin: 0 1rem 0 0;
+  padding: 1rem 2.3rem;
+  border-radius: 1.5rem;
+  background-color: #D3E97A;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.apresentacao-direita-sobre-mim-botoes button:nth-child(2), .apresentacao-direita-sobre-mim-botoes button:nth-child(3) {
+  padding: 1rem 1rem;
+  border-radius: 100%;
+  background-color: #222222;
+}
+
+.apresentacao-direita-sobre-mim-botoes a, .bi{
+  background-color: transparent;
+  color: #000000;
+}
+
+.bi{
+  color: #D3E97A;
+}
+
+.imagem-sobre-mim img{
+  width: 72rem;
+  height: 43.7rem;
+  object-fit: cover;
+  background-color: #C7C7C7;
+  border-radius: 2rem;
+}
+
+#habilidades {
+  display: flex;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.lista-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+
+.lista-habilidades p {
+  border-radius: 2rem;
+  border: 0.1rem solid #484848;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+}
+
+.container-experiencias {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+.experiencias {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  width: 100%;
+}
+
+.experiencia-ano {
+  display: flex;
+  margin: 0 ;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.experiencia-ano h3 {
+  font-size: 1.5rem;
+}
+
+.experiencia-ano p, .experiencias span, .experiencias p {
+  font-size: 1.1rem;
+}
+
+.experiencias span {
+  margin: 0;
+  color: #D3E97A;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.experiencia-ano h3, .experiencia-ano p {
+  margin: 0;
+}

@@ -1,0 +1,185 @@
+@media (min-width: 320px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    padding: 1rem 0 1rem 0;
+    margin: 0 auto;
+  }
+
+  header ul {
+    margin: 0;
+  }
+  
+  header ul a {
+    margin: 0 0 0 0.5rem;
+    font-size: 1rem;
+  }
+
+  #apresentacao , #projetos, #sobre-mim, #contato, #apresentacao-sobre-mim, #habilidades, #minhas-experiencias {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: -96px;
+  }
+
+  .apresentacao-esquerda {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .apresentacao-esquerda h2 {
+    font-size: 3rem;
+    margin: 0;
+    padding: 0 0 1rem 1rem;
+  }
+  
+  .apresentacao-esquerda p {
+    padding: 0 0 1rem 1rem;
+    margin: 0;
+  }
+
+  .apresentacao-direita {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .apresentacao-direita img, .imagem-sobre-mim img {
+    width: 93vw;
+    height: 60vh;
+  }
+
+  .apresentacao-esquerda-botoes {
+    padding: 0 0 1rem 1rem;
+    margin: 0;
+  }
+
+  .projetos-apresentacao-geral, .projeto, .sobre-mim, .sobre-mim-esquerda, .sobre-mim-direita, .contato-esquerda, .contato-direita{
+    padding: 1rem  0 3rem 1rem;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .projeto{
+    flex-wrap: wrap;
+  }
+
+  .projeto-esquerda{
+    padding: 1rem  0 3rem 1rem;
+    margin: 0;
+    width: 93vw;
+  }
+
+  .projeto-esquerda img {
+    width: 84vw;
+    padding: 0;
+  }
+
+  .projeto-direita{
+    margin: 0;
+    width: 95vw;
+    padding: 0 1rem 0 0;
+  }
+
+  .sobre-mim-esquerda h2 {
+    display: none;
+  }
+
+  .sobre-mim-direita h3 {
+    margin: 0;
+    width: 95vw;
+    font-size: 1.5rem;
+  }
+
+  .sobre-mim-direita p {
+    padding: 0.5rem 1rem 1rem 0;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .contato-esquerda {
+    margin-bottom: -11rem;
+  }
+
+  .contato-direita {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .footer-class-responsive {
+    display: flex;
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  .apresentacao-esquerda {
+    margin: 0;
+    padding: 2rem 1rem 1rem 1rem;;
+  }
+
+  .apresentacao-direita-sobre-mim {
+    margin: 0;
+    padding: 0 1rem 0 1rem;
+    width: 100vw;
+  }
+
+  .apresentacao-direita-sobre-mim-botoes {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .imagem-sobre-mim {
+    margin: 0;
+    width: 100vw;
+    padding: 0.5rem;
+    margin-left: -96px;
+  }
+
+  .container-experiencias{
+    flex-wrap: wrap;
+    padding: 0 1rem 0rem 1rem;
+    width: 100vw;
+    margin-bottom: 5rem;
+  }
+
+  .experiencias, .experiencia-ano {
+    flex-wrap: wrap;
+  }
+
+  .pdf {
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 0.5rem;
+    width: 96vw;
+    margin-left: -96px;
+    margin-top: -50px;
+  }
+
+  .pdf embed{
+      width: 65.5rem;
+      height: 32rem;
+  }
+
+  .footer-class {
+      padding: 1rem 0 0 0;
+      display: flex;
+      width: 100vw;
+      margin-left: -96px;
+  }
+
+}

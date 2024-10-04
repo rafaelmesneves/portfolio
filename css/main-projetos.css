@@ -1,0 +1,93 @@
+#projetos {
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.projetos-apresentacao-geral {
+    position: relative;
+    margin: 0 0 5rem 0;
+    width: 50%;
+}
+
+.projetos-apresentacao-geral h2 {
+    font-size: 4.7rem;
+}
+
+.projetos-apresentacao-geral p {
+    font-size: 1.1rem;
+}
+
+.projeto {
+    display: flex;
+    margin-bottom: 7rem;
+}
+
+.projeto-esquerda {
+    width: 50%;
+    background-color: #1A1A1A;
+    padding: 7.6rem 3.3rem 7.6rem 3.3rem;
+    border-radius: 1rem;
+    margin-right: 3rem;
+    transition: transform 0.3s ease, padding 0.3s ease, border 0.3s ease;
+}
+
+.projeto-esquerda:hover {
+    transform: scale(1.03);
+}
+
+.projeto-esquerda img {
+    width: 30.3rem;
+    height: 21.6rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    border: 1px solid #000000;
+}
+
+.projeto-direita {
+    padding: 4.3rem 0 4.3rem 0;
+}
+
+.projeto-direita h3 {
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
+}
+
+.projeto-direita p {
+    font-size: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+.projeto-direita span {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.projeto-direita hr {
+    margin: 1.7rem 0 1.7rem 0;
+}
+
+.projeto-direita-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projeto-direita-info p {
+    margin: 0;
+}
+
+.projeto-direita-links {
+    display: flex;
+    margin: 0;
+}
+
+.projeto-direita-links a {
+    position: relative;
+    margin: 0 1rem 0 0rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #D3E97A;
+}

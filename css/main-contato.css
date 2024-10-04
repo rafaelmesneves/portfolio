@@ -1,0 +1,106 @@
+#contato {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.contato-esquerda {
+    width: 50%;
+    padding: 4rem 0rem 6rem 0;
+}
+
+.contato-esquerda h2 {
+    font-size: 4.7rem;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.contato-esquerda p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contato-esquerda a{
+    text-decoration: underline #D3E97A;
+}
+
+.contato-icones {
+    padding: 1.5rem 0 10rem 0;
+}
+
+.contato-icones i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.contato-direita {
+    width: 50%;
+    padding: 4rem 0rem 6rem 0;
+}
+
+.contato-direita {
+    display: flex;
+    width: 50%;
+    padding-top: 4rem;
+}
+
+.contato-direita form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.contato-direita form div {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.contato-direita form div label {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}
+
+.contato-direita form div button {
+    text-align: left;
+    margin: 0 ;
+    margin-bottom: 0.2rem;
+    width: 8.7rem;
+    height: 3.3rem;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2.3rem;
+    background-color: #D3E97A;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    color: #000000;
+    font-weight: 600;
+}
+
+.contato-direita form div input, textarea {
+    margin: 0;
+    border: none;
+    background-color: #1A1A1A;
+    height: 3.1rem;
+    border-radius: 0.5rem;
+}
+
+.contato-direita-nome, .contato-direita-email, .contato-direita-msg, .contato-direita-botao {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+}
+
+textarea {
+    height: 9.7rem;
+}
+
+.footer-class-responsive {
+    display: none;
+}

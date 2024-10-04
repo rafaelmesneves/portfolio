@@ -1,0 +1,68 @@
+#apresentacao {
+    display: flex;
+    margin-bottom: 4.5rem;
+    padding-top: 6rem;
+}
+
+.apresentacao-esquerda {
+    padding: 10rem 6.25rem 10rem 0;
+    width: 50%;
+}
+
+.apresentacao-esquerda h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+
+.apresentacao-esquerda p {
+    font-size: 1.1rem;
+    margin-bottom: 2.8rem;
+}
+
+.apresentacao-direita {
+    width: 50%;
+}
+
+.apresentacao-direita img {
+    width: 36.5rem;
+    height: 43.75rem;
+    background-color: grey;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.apresentacao-esquerda-botoes {
+    display: flex;
+    align-items: baseline;
+    align-content: flex-start;
+
+}
+
+.apresentacao-esquerda-botoes button{
+    font-size: 1rem;
+    position: relative;
+    margin: 0 1rem 0 0;
+    padding: 1rem 2.3rem;
+    border-radius: 1.5rem;
+    background-color: #D3E97A;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.apresentacao-esquerda-botoes button:nth-child(2), .apresentacao-esquerda-botoes button:nth-child(3) {
+    padding: 1rem 1rem;
+    border-radius: 100%;
+    background-color: #222222;
+}
+
+.apresentacao-esquerda-botoes a, .bi{
+    background-color: transparent;
+    color: #000000;
+}
+
+.bi{
+    color: #D3E97A;
+}
+

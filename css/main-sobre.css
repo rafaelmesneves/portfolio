@@ -1,0 +1,38 @@
+#sobre-mim {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.sobre-mim-esquerda {
+    width: 50%;
+    padding: 4rem 3.3rem 6rem 0;
+}
+
+.sobre-mim-esquerda h2 {
+    font-size: 6.3rem;
+    text-transform: uppercase;
+}
+
+.sobre-mim-direita {
+    width: 50%;
+    padding-top: 6.5rem;
+    padding-bottom: 6rem;
+}
+
+.sobre-mim-direita h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sobre-mim-direita p {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.sobre-mim-direita a {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #D3E97A;
+}
